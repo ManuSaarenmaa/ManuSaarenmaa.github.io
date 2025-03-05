@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0px;
+    background-color: pink;
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -14,10 +19,11 @@
 
 .name{
     padding-left: 5%;
+    font-size: 0.5rem;
 }
 
 .menu{
-    padding: 0 5rem;
+    padding: 0 1rem;
 }
 
 .menu-list{
@@ -27,4 +33,9 @@
 
 .menu-list-items{
     padding: 0.5rem 0.3rem;
+    font-size: 0.5rem;
+}
+
+.links{
+    text-decoration: none;
 }
