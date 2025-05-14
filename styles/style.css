@@ -60,7 +60,7 @@ body {
 
 /* Main Hero Section Styles */
 .hero { 
-	background-image: url('./Images/heroImg3.avif'); 
+	background-image: url('/images/Ai-github.png'); 
 	background-repeat: no-repeat; 
 	background-size: 100% 100%; 
 	width: 100%; 
@@ -117,7 +117,7 @@ body {
 } 
 
 .port-card .image { 
-	width: 100%; 
+	 
 } 
 
 .port-card .image img { 
@@ -269,7 +269,7 @@ body {
 .sub-heading { 
 	margin: 0; 
 	font-size: 0.8rem; 
-	color: #ccc; 
+	color: black; 
 	font-weight: lighter; 
 } 
 
@@ -311,7 +311,8 @@ body {
 	background-color: #fff; 
 	color: #35A99C; 
 	border: 2px solid #35A99C; 
-	outline: none; 
+	outline: none;
+	margin-left: 1rem; 
 } 
 
 .ghost-btn:hover { 
